@@ -1,0 +1,6 @@
+{
+  "name": "eStudy Landbot Chatbot Demo Portal",
+  "description": "Interactive preview and testing portal for the eStudy AI Learning Assistant across Webchat, Full Page, and Embedded display modes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

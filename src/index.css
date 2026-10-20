@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+/* Ensure Landbot container styles don't conflict with parent margins */
+#myLandbot {
+  position: relative;
+  overflow: hidden;
+}
+
+#myLandbot > div {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Offset Fullpage Landbot so the top navigation bar is cleanly visible without overlap */
+body.fullpage-active .LandbotFullpage {
+  top: 52px !important;
+  height: calc(100vh - 52px) !important;
+}
